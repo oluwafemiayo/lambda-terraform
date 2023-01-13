@@ -31,4 +31,6 @@ override.tf.json
 # example: *tfplan*
 
 .DS_Store
-builds
+/builds
+.terraform*
+plan out
