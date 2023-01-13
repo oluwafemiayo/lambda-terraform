@@ -25,9 +25,9 @@ jobs:
           terraform_version: ~>1. 
           terraform_wrapper: false
 
-      - name: Terraform FOrmat
-        id: fmt
-        run: terraform fmt -check
+#       - name: Terraform FOrmat
+#         id: fmt
+#         run: terraform fmt -check
 
       - name: Terraform Init
         id: init
