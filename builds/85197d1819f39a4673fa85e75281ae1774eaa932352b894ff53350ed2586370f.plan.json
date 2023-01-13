@@ -1,1 +1,0 @@
-{"filename": "builds/85197d1819f39a4673fa85e75281ae1774eaa932352b894ff53350ed2586370f.zip", "runtime": "", "artifacts_dir": "builds", "build_plan": [["zip", "./resources/profile-generator-layer", null]]}
