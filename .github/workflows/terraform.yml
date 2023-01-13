@@ -35,7 +35,7 @@ jobs:
 
       - name: Terraform PLan
         id: plan
-        run: terraform plan -lock=false
+        run: terraform plan -out "plan out"
 
-      - name: Terraform Apply
-        run: terraform apply --auto-approve -lock=false
+#       - name: Terraform Apply
+#         run: terraform apply --auto-approve -lock=false
