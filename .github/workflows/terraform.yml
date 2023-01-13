@@ -38,4 +38,4 @@ jobs:
         run: terraform plan -out "plan out"
 
       - name: Terraform Apply 
-        run: terraform apply plan out --auto-approve
+        run: terraform apply plan out 
