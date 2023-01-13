@@ -33,9 +33,9 @@ jobs:
         id: init
         run: terraform init
 
-      - name: Terraform PLan
+      - name: Terraform Plan
         id: plan
         run: terraform plan 
 
-      - name: Terraform Apply 
-        run: terraform apply --auto-approve
+      - name: Terraform Destroy
+        run: terraform destroy --auto-approve
