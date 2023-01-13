@@ -6,7 +6,7 @@ module "profile_generator_lambda" {
   description   = "Generates a new profiles"
   handler       = "index.handler"
   runtime       = "nodejs16.x"
-  source_path   = "${path.module}/nodejs"
+  source_path   = "${path.module}"
   layers        = [module.profile_generator_lambda_layer.lambda_layer_arn]
 
   tags = {
