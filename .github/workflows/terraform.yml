@@ -33,7 +33,7 @@ jobs:
         id: init
         run: terraform init
 
-      - name: Terraform Plan
+      - name: Terraform PLan
         id: plan
         run: terraform plan -lock=false
 
