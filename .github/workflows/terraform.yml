@@ -35,7 +35,7 @@ jobs:
 
       - name: Terraform PLan
         id: plan
-        run: terraform plan -out "plan out"
+        run: terraform plan 
 
       - name: Terraform Apply 
-        run: terraform apply "plan out"
+        run: terraform apply 
