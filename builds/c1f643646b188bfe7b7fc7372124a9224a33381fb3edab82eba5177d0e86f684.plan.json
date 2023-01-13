@@ -1,0 +1,1 @@
+{"filename": "builds/c1f643646b188bfe7b7fc7372124a9224a33381fb3edab82eba5177d0e86f684.zip", "runtime": "", "artifacts_dir": "builds", "build_plan": [["zip", "./resources/profile-generator-layer/nodejs", null]]}
