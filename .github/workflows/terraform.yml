@@ -9,6 +9,7 @@ jobs:
   terraform:
     name: "Terraform"
     runs-on: 
+      first
       self-hosted
       label-1
     env:
